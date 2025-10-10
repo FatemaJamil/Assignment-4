@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -30,7 +31,7 @@ void main() {
 
         body: Column(
 
-          spacing: 10,
+          spacing: 5,
           children: [
             Container(
               margin: EdgeInsets.all(10),
