@@ -1,20 +1,16 @@
 
 
-
-
-
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
-
-import 'Assignment-5.dart';
+import 'package:myfirstapp/assignment-6part-1.dart';
 
 void main(){
 
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:ButtonScreen()
+      home: Clock(),
     )
+
   );
+
 }
