@@ -33,5 +33,10 @@ flutter:
   assets:
     - assets/
 
+  fonts:
+    - family:  Manrope
+      fonts:
+        - asset: assets/font/Manrope-SemiBold.ttf
+
 
 

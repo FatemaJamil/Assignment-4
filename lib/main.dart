@@ -2,19 +2,21 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:myfirstapp/practice.dart';
-import 'package:myfirstapp/textfield-2.dart';
-import 'package:myfirstapp/textfiled-1.dart';
+import 'package:myfirstapp/popupscreen.dart';
+import 'package:myfirstapp/saloonhome.dart';
+import 'package:myfirstapp/servicemenu.dart';
+import 'package:myfirstapp/splashscreen.dart';
 
-import 'checkbox.dart';
-import 'gridview.dart';
-import 'listview.dart';
+import 'bottomnavigation.dart';
+
+
+
 
 void main(){
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:RadioScreen(),
+      home:Servicemenu(),
     )
   );
 }
